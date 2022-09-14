@@ -1,0 +1,101 @@
+
+
+
+#contact-detail{
+    padding: 30px;
+    text-align: center;
+    .address{
+        p{
+            width: 75%;
+            margin: auto;
+        }
+    }
+    i{
+        width: 30px;
+        height: 30px;
+        background-color: var(--primary-color);
+        border-radius: 50%;
+        line-height: 30px;
+    }
+    span{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+    span.links{
+        padding-bottom: 0;
+    }
+    a{
+        color: var(--secondary-color);
+        transition: 0.7s all;
+        &:hover{
+            color: var(--primary-color);
+        }
+    }
+    .gmail{
+        border-right: 1px solid var(--secondary-color);
+        border-left: 1px solid var(--secondary-color);
+    }
+}
+
+#contact-location{
+    .container{
+        iframe{
+            width: 100%;
+            margin: auto;
+        }
+    }
+}
+
+#contact-form{
+    padding: 40px;
+    .container{
+        position: relative;
+    }
+    .form-img{
+        img{
+            width: 100%;
+        }
+    }
+    .form-detail{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 7%;
+        width: 100%;
+        width: fit-content;
+        background-color: white;
+        padding: 30px;
+        display: flex;
+        justify-content: end;
+        box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.7);
+        margin-left: auto;
+        #name{
+            margin-top: 5px;
+            width: 200px;
+            margin-right: 27px;
+        }
+        #email{
+            width: 200px;
+        }
+        #message{
+            margin-top: 30px;
+            width: 430px;
+            resize: none;
+        }
+        #submit-btn{
+            width: 430px;
+            margin-top: 30px;
+            padding: 10px 0;
+            background-color: var(--primary-color);
+            border: none;
+            text-transform: uppercase;
+            transition: 0.5s all;
+            &:hover{
+                background-color: rgb(223, 218, 218);
+            }
+        }
+    }
+}

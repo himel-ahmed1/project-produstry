@@ -1,0 +1,154 @@
+@media(min-width: 992px) and (max-width:1199px){
+    #blog-list .blog-list-detail {
+        height: 600px;
+    }
+    #blog-list .blog-list-about {
+        padding: 70px 20px 30px 30px;
+    }
+    #blog-list .blog-list-about h2 {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    #blog-list .blog-list-content .filtered-items .filter-content .img-content p {
+        font-size: 14px;
+    }
+    #blog-list .blog-list-content .filtered-items .filter-content .img-content span {
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    #blog-list .blog-list-detail {
+        height: 470px;
+    }
+    #blog-list .blog-list-img img {
+        height: 300px;
+    }
+    #blog-list .blog-list-about {
+        transform: translate(20px, -170px) !important;
+        padding: 70px 2px 20px 15px;
+    }
+    #blog-list .blog-list-about h2 {
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+    #blog-list .blog-list-about p {
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    #blog-list .blog-list-content .filter-menu ul li button {
+        padding-right: 15px;
+        padding-bottom: 15px;
+        font-size: 15px;
+    }
+    #blog-list .blog-list-content .filtered-items .filter-content .img {
+        width: 60px;
+    }
+    #blog-list .blog-list-content .filtered-items .filter-content .img-content {
+        padding-left: 10px;
+    }
+    #blog-list .blog-list-content .filtered-items .filter-content .img-content p {
+        font-size: 11px;
+    }
+    #blog-list .blog-list-content .filtered-items .filter-content .img-content span a {
+        padding-right: 3px;
+        font-size: 11px;
+    }
+    #blog-list .blog-list-content .filtered-items .categories {
+        margin: 30px 0;
+    }
+    #blog-list .blog-list-content .filtered-items .categories h2 {
+        font-size: 18px;
+    }
+    #blog-list .blog-list-content .filtered-items .categories ul li span a {
+        font-size: 12px;
+    }
+    #blog-list .blog-list-content .filtered-items .tags {
+        padding: 0px 0;
+    }
+    #blog-list .blog-list-content .filtered-items .tags h2 {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    #blog-list .blog-list-content .filtered-items .tags span a {
+        font-size: 12px;
+        padding: 8px;
+    }
+    #blog-list .blog-list-content .filtered-items .tags span {
+        padding-right: 5px;
+        padding-bottom: 15px;
+    }
+}
+@media(min-width: 576px) and (max-width: 767px){
+    #blog-list .blog-list-detail {
+        height: 500px;
+    }
+    #blog-list .blog-list-about {
+        transform: translate(25px, -190px) !important;
+        padding: 70px 20px 30px 25px;
+    }
+    #blog-list .blog-list-about h2 {
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+    #blog-list .blog-list-about p {
+        font-size: 14px;
+        padding-bottom: 25px;
+    }
+}
+@media(min-width: 320px) and (max-width: 575px){
+    #blog-list .blog-list-detail {
+        height: 430px;
+    }
+    #blog-list .blog-list-img img {
+        height: 320px;
+    }
+    #blog-list .blog-list-about {
+        width: 100%;
+        transform: translate(0px, -163px) !important;
+        padding: 35px 5px 20px 10px;
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    }
+    #blog-list .blog-list-about h2 {
+        font-size: 10px;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+    #blog-list .blog-list-about p {
+        font-size: 10px;
+        padding-bottom: 15px;
+    }
+    #blog-list .blog-list-about a {
+        font-size: 11px;
+    }
+    #blog-list .blog-list-content .filter-menu ul li button {
+        padding-right: 25px;
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+    #blog-list .blog-list-content .filtered-items .filter-content .img {
+        width: 70px;
+    }
+    #blog-list .blog-list-content .filtered-items .filter-content .img-content p {
+        font-size: 12px;
+    }
+    #blog-list .blog-list-content .filtered-items .filter-content .img-content span a {
+        font-size: 12px;
+    }
+    #blog-list .blog-list-content .filtered-items .categories h2 {
+        font-size: 18px;
+    }
+    #blog-list .blog-list-content .filtered-items .categories ul li span a {
+        font-size: 12px;
+    }
+    #blog-list .blog-list-content .filtered-items .tags {
+        padding: 0px 0;
+    }
+    #blog-list .blog-list-content .filtered-items .tags h2 {
+        font-size: 18px;
+    }
+    #blog-list .blog-list-content .filtered-items .tags span a {
+        font-size: 12px;
+        padding: 10px;
+    }
+}

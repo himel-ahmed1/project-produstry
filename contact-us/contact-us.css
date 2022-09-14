@@ -1,0 +1,92 @@
+#contact-detail {
+  padding: 30px;
+  text-align: center;
+}
+#contact-detail .address p {
+  width: 75%;
+  margin: auto;
+}
+#contact-detail i {
+  width: 30px;
+  height: 30px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  line-height: 30px;
+}
+#contact-detail span {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+#contact-detail span.links {
+  padding-bottom: 0;
+}
+#contact-detail a {
+  color: var(--secondary-color);
+  transition: 0.7s all;
+}
+#contact-detail a:hover {
+  color: var(--primary-color);
+}
+#contact-detail .gmail {
+  border-right: 1px solid var(--secondary-color);
+  border-left: 1px solid var(--secondary-color);
+}
+
+#contact-location .container iframe {
+  width: 100%;
+  margin: auto;
+}
+
+#contact-form {
+  padding: 40px;
+}
+#contact-form .container {
+  position: relative;
+}
+#contact-form .form-img img {
+  width: 100%;
+}
+#contact-form .form-detail {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 7%;
+  width: 100%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: end;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.7);
+  margin-left: auto;
+}
+#contact-form .form-detail #name {
+  margin-top: 5px;
+  width: 200px;
+  margin-right: 27px;
+}
+#contact-form .form-detail #email {
+  width: 200px;
+}
+#contact-form .form-detail #message {
+  margin-top: 30px;
+  width: 430px;
+  resize: none;
+}
+#contact-form .form-detail #submit-btn {
+  width: 430px;
+  margin-top: 30px;
+  padding: 10px 0;
+  background-color: var(--primary-color);
+  border: none;
+  text-transform: uppercase;
+  transition: 0.5s all;
+}
+#contact-form .form-detail #submit-btn:hover {
+  background-color: rgb(223, 218, 218);
+}/*# sourceMappingURL=contact-us.css.map */

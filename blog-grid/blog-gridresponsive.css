@@ -1,0 +1,77 @@
+@media(min-width: 768px) and (max-width: 991px){
+    #blog-filter .row {
+        padding: 5px;
+    }
+    #blog-filter .page-links {
+        padding: 0px;
+    }
+    #blog-filter .options {
+        padding-left: 0;
+    }
+    #blog-filter .options label {
+        font-size: 12px;
+    }
+    #blog-filter .options select {
+        font-size: 12px;
+        padding: 3px;
+        margin-right: 0px;
+    }
+    #blog-filter .page-nav nav label {
+        font-size: 14px;
+        padding-right: 5px;
+    }
+}
+
+
+@media(min-width: 576px) and (max-width: 767px){
+    #blog-filter .page-links {
+        padding: 20px;
+        width: fit-content;
+    }
+    #blog-filter .options {
+        padding-right: 0;
+        padding-left: 25px;
+        text-align: center;
+    }
+    .page-nav{
+        padding-bottom: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media(min-width: 320px) and (max-width: 575px){
+    #blog-filter .page-links {
+        padding: 10px;
+        text-align: center;
+    }
+    #blog-filter .options {
+        padding-left: 0;
+        text-align: center;
+    }
+    #blog-filter .options label {
+        font-size: 12px;
+    }
+    #blog-filter .options select {
+        font-size: 12px;
+        padding: 10px;
+        margin: 0px 5px;
+    }
+    #blog-filter .page-nav nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    #blog-filter .page-nav nav label {
+        font-size: 12px;
+        padding-right: 5px;
+    }
+    #blog-filter .page-nav nav a {
+        color: var(--secondary-color);
+        font-size: 14px;
+    }
+}

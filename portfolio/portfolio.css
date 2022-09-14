@@ -1,0 +1,35 @@
+#portfolio .more a {
+  color: black;
+  padding: 10px;
+  background-color: var(--primary-color);
+  transition: 0.7s all;
+}
+#portfolio .more a:hover {
+  background-color: rgb(238, 232, 232);
+}
+#portfolio .more a i {
+  -webkit-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=portfolio.css.map */
